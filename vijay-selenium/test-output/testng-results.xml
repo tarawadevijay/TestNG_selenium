@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="2" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[beforeSuite]]>
+    </line>
+    <line>
+      <![CDATA[beforeTest]]>
+    </line>
+    <line>
+      <![CDATA[beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[beforemethod]]>
+    </line>
+    <line>
+      <![CDATA[aftermethod]]>
+    </line>
+    <line>
+      <![CDATA[afterclass]]>
+    </line>
+    <line>
+      <![CDATA[afterTest]]>
+    </line>
+    <line>
+      <![CDATA[beforeTest]]>
+    </line>
+    <line>
+      <![CDATA[beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[beforemethod]]>
+    </line>
+    <line>
+      <![CDATA[aftermethod]]>
+    </line>
+    <line>
+      <![CDATA[afterclass]]>
+    </line>
+    <line>
+      <![CDATA[afterTest]]>
+    </line>
+    <line>
+      <![CDATA[aftersuite]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="247622" started-at="2021-06-24T10:10:21 IST" finished-at="2021-06-24T10:14:29 IST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="87458" started-at="2021-06-24T10:10:21 IST" finished-at="2021-06-24T10:11:49 IST">
+      <class name="CrossBrowser.TC_01TestCase">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:CrossBrowser.TC_01TestCase@77ab81]" name="beforeTest" is-config="true" duration-ms="6643" started-at="2021-06-24T10:10:21 IST" finished-at="2021-06-24T10:10:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[beforeTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:CrossBrowser.TC_01TestCase@77ab81]" name="beforeclass" is-config="true" duration-ms="30414" started-at="2021-06-24T10:10:28 IST" finished-at="2021-06-24T10:10:58 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:CrossBrowser.TC_01TestCase@77ab81]" name="beforemethod" is-config="true" duration-ms="45120" started-at="2021-06-24T10:10:58 IST" finished-at="2021-06-24T10:11:43 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[beforemethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="FAIL" signature="createData()[pri:0, instance:CrossBrowser.TC_01TestCase@77ab81]" name="createData" duration-ms="5180" started-at="2021-06-24T10:11:43 IST" finished-at="2021-06-24T10:11:49 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Contacts"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SOHAM-PC', ip: '192.168.43.168', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\SOHAM\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 302b3cda8614b78a0f77298bf134afce
+*** Element info: {Using=link text, value=Contacts}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Contacts"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SOHAM-PC', ip: '192.168.43.168', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\SOHAM\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 302b3cda8614b78a0f77298bf134afce
+*** Element info: {Using=link text, value=Contacts}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at CrossBrowser.TC_01TestCase.createData(TC_01TestCase.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:CrossBrowser.TC_01TestCase@77ab81]" name="aftermethod" is-config="true" duration-ms="1" started-at="2021-06-24T10:11:49 IST" finished-at="2021-06-24T10:11:49 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[aftermethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:CrossBrowser.TC_01TestCase@77ab81]" name="afterclass" is-config="true" duration-ms="0" started-at="2021-06-24T10:11:49 IST" finished-at="2021-06-24T10:11:49 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[afterclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:CrossBrowser.TC_01TestCase@77ab81]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-06-24T10:11:49 IST" finished-at="2021-06-24T10:11:49 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[afterTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- CrossBrowser.TC_01TestCase -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="159924" started-at="2021-06-24T10:11:49 IST" finished-at="2021-06-24T10:14:29 IST">
+      <class name="CrossBrowser.TC_01TestCase">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:CrossBrowser.TC_01TestCase@19651f3]" name="beforeSuite" is-config="true" duration-ms="33" started-at="2021-06-24T10:10:21 IST" finished-at="2021-06-24T10:10:21 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[beforeSuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="FAIL" signature="beforeTest(java.lang.String)[pri:0, instance:CrossBrowser.TC_01TestCase@19651f3]" name="beforeTest" is-config="true" duration-ms="64382" started-at="2021-06-24T10:11:49 IST" finished-at="2021-06-24T10:12:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SOHAM-PC', ip: '192.168.43.168', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_291'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SOHAM-PC', ip: '192.168.43.168', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_291'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at CrossBrowser.BaseClass1.beforeTest(BaseClass1.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:CrossBrowser.TC_01TestCase@19651f3]" name="beforeclass" is-config="true" duration-ms="13561" started-at="2021-06-24T10:12:53 IST" finished-at="2021-06-24T10:13:07 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:CrossBrowser.TC_01TestCase@19651f3]" name="beforemethod" is-config="true" duration-ms="81953" started-at="2021-06-24T10:13:07 IST" finished-at="2021-06-24T10:14:29 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[beforemethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="SKIP" signature="createData()[pri:0, instance:CrossBrowser.TC_01TestCase@19651f3]" name="createData" duration-ms="0" started-at="2021-06-24T10:14:29 IST" finished-at="2021-06-24T10:14:29 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SOHAM-PC', ip: '192.168.43.168', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_291'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'SOHAM-PC', ip: '192.168.43.168', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_291'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at CrossBrowser.BaseClass1.beforeTest(BaseClass1.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:CrossBrowser.TC_01TestCase@19651f3]" name="aftermethod" is-config="true" duration-ms="0" started-at="2021-06-24T10:14:29 IST" finished-at="2021-06-24T10:14:29 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[aftermethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:CrossBrowser.TC_01TestCase@19651f3]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-06-24T10:14:29 IST" finished-at="2021-06-24T10:14:29 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[afterTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:CrossBrowser.TC_01TestCase@19651f3]" name="afterclass" is-config="true" duration-ms="0" started-at="2021-06-24T10:14:29 IST" finished-at="2021-06-24T10:14:29 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[afterclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:CrossBrowser.TC_01TestCase@19651f3]" name="aftersuite" is-config="true" duration-ms="0" started-at="2021-06-24T10:14:29 IST" finished-at="2021-06-24T10:14:29 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[aftersuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- CrossBrowser.TC_01TestCase -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
